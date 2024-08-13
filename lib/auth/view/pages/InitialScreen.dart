@@ -20,7 +20,7 @@ class _InitialScreenState extends State<InitialScreen> {
     startTime();
   }
   void startTime(){
-    Timer(Duration(seconds: 3), navigateToAnotherScreen);
+    Timer(const Duration(seconds: 4), navigateToAnotherScreen);
   }
 
   void navigateToAnotherScreen(){
